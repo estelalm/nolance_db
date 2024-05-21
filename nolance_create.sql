@@ -109,7 +109,7 @@ CREATE TABLE IF NOT EXISTS `tbl_lote` (
 CREATE TABLE IF NOT EXISTS `tbl_endereco` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `cep` VARCHAR(8) NOT NULL,
-  `numero` VARCHAR(45) NOT NULL,
+  `numero` INT NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE INDEX `id_UNIQUE` (`id` ASC) )
 ;

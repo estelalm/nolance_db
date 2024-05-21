@@ -9,4 +9,4 @@ INSERT INTO tbl_subcategoria(nome, categoria_id) values
 ('Ônibus', 1);
 
 
-                  
+                 
